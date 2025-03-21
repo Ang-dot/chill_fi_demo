@@ -19,7 +19,7 @@ const getAgentState = async () => {
 
 export const chill_fi_agent = new GameAgent(process.env.GAME_API_KEY, {
     name: "ChillFi Agent",
-    goal: "Search for '@0x02yang_vp can you help to' tweets, and help users within your multi-worker capability.",
+    goal: "Search for '@0x02yang_vp' tweets, and help users within your multi-worker capability.",
     description: "You are an agent that read tweets, and help users. Handle one tweet at a time according to your agent state.",
     workers: [ twitterWorker, apertureFinanceWorker ],
     getAgentState: getAgentState,
