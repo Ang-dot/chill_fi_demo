@@ -22,9 +22,18 @@ npm start
 ```
 
 ### Example Output:
-[Sample tweet interaction](https://x.com/0x02yang_vp/status/1903043817986723997):
+- Output 1:
 
-![agent_sample_tweet_interaction](sample_tweet_interaction.png)
+  [Tweet Link](https://x.com/0x02yang_vp/status/1903043817986723997)
 
-Refer to the [sample log output](./sample_output.log) for a full log output.
+  ![agent_sample_tweet_interaction](sample_tweet_interaction.png)
+
+  Refer to the [sample log output](./sample_output.log) for a full log output.
+- Output 2
+
+  [Tweet Link](https://x.com/0x02yang/status/1903098377421852825)
+
+  ![agent_sample_tweet_interaction](sample_tweet_interaction_2.png)
+
+  Refer to the [sample log output](./sample_output_2.log) for a full log output.
 
